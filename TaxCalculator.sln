@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxCalculator.ServiceLibrary", "TaxCalculator.ServiceLibrary\TaxCalculator.ServiceLibrary.csproj", "{71515149-A864-45CE-BBC7-BFF107C4B11C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxCalculator.API", "TaxCalculator.API\TaxCalculator.API.csproj", "{C6C4AD45-5BC0-42B1-ACA9-3B19B8DF521D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxCalculator.ServiceLibrary.TestProject", "TaxCalculator.ServiceLibrary.TestProject\TaxCalculator.ServiceLibrary.TestProject.csproj", "{ACC6202A-B913-46DA-8E71-664C84F45C95}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxCalculator.DTO", "TaxCalculator.DTO\TaxCalculator.DTO.csproj", "{A75F0DF4-18CB-47FF-BF05-BF723C4C00D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxCalculator.API.InfrastructureLibrary", "TaxCalculator.API.InfrastructureLibrary\TaxCalculator.API.InfrastructureLibrary.csproj", "{738EA6B3-DBEB-438C-8A73-F305281FE75E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Diagrams", "Diagrams", "{FB9F381E-EE3B-4C8A-B21B-4294BEB384DD}"
+	ProjectSection(SolutionItems) = preProject
+		Diagrams\01_UseCaseDiagram.png = Diagrams\01_UseCaseDiagram.png
+		Diagrams\02_ClassDiagram.png = Diagrams\02_ClassDiagram.png
+		Diagrams\Readme.txt = Diagrams\Readme.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71515149-A864-45CE-BBC7-BFF107C4B11C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71515149-A864-45CE-BBC7-BFF107C4B11C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71515149-A864-45CE-BBC7-BFF107C4B11C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71515149-A864-45CE-BBC7-BFF107C4B11C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6C4AD45-5BC0-42B1-ACA9-3B19B8DF521D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6C4AD45-5BC0-42B1-ACA9-3B19B8DF521D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6C4AD45-5BC0-42B1-ACA9-3B19B8DF521D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6C4AD45-5BC0-42B1-ACA9-3B19B8DF521D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACC6202A-B913-46DA-8E71-664C84F45C95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACC6202A-B913-46DA-8E71-664C84F45C95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACC6202A-B913-46DA-8E71-664C84F45C95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACC6202A-B913-46DA-8E71-664C84F45C95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A75F0DF4-18CB-47FF-BF05-BF723C4C00D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A75F0DF4-18CB-47FF-BF05-BF723C4C00D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A75F0DF4-18CB-47FF-BF05-BF723C4C00D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A75F0DF4-18CB-47FF-BF05-BF723C4C00D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{738EA6B3-DBEB-438C-8A73-F305281FE75E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{738EA6B3-DBEB-438C-8A73-F305281FE75E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{738EA6B3-DBEB-438C-8A73-F305281FE75E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{738EA6B3-DBEB-438C-8A73-F305281FE75E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A001389-4B98-4105-8F92-BC23C38452B9}
+	EndGlobalSection
+EndGlobal
